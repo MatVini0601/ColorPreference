@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Laranja"
+        android:id="@+id/cor1"/>
+    <item
+        android:title="Verde"
+        android:id="@+id/cor2"/>
+    <item
+        android:title="Vintage"
+        android:id="@+id/darktheme"/>
+</menu>
