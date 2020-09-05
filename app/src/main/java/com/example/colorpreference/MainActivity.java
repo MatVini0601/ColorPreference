@@ -58,10 +58,16 @@ public class MainActivity extends AppCompatActivity {
                 preference.storeColor("themestatus", "#2E6B31");
                 setTheme();
                 break;
-            case R.id.darktheme:
-                preference.storeColor("theme", "#e47676");
-                preference.storeColor("themebar", "#45056e");
-                preference.storeColor("themestatus", "#1f024c");
+            case R.id.vintage:
+                preference.storeColor("theme", "#8F1383");
+                preference.storeColor("themebar", "#45056E");
+                preference.storeColor("themestatus", "#1F024C");
+                setTheme();
+                break;
+            case R.id.dark:
+                preference.storeColor("theme", "#525252");
+                preference.storeColor("themebar", "#414141");
+                preference.storeColor("themestatus", "#313131");
                 setTheme();
         }
         return true;

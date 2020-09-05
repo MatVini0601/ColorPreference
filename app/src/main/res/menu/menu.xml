@@ -9,5 +9,8 @@
         android:id="@+id/cor2"/>
     <item
         android:title="Vintage"
-        android:id="@+id/darktheme"/>
+        android:id="@+id/vintage"/>
+    <item
+        android:title="Dark"
+        android:id="@+id/dark"/>
 </menu>
